@@ -1,0 +1,21 @@
+
+
+(base) C:\Users\Anne>activate parcels_deps
+
+(parcels_deps) C:\Users\Anne>activate spyder
+Could not find conda environment: spyder
+You can list all discoverable environments with `conda info --envs`.
+
+
+(parcels_deps) C:\Users\Anne>spyder
+
+
+
+
+
+
+
+Bestanden van gemini naar eigen computer downloaden. Ga naar command prompt en daarin naar Program Files/PuTTY
+
+run:
+pscp   -l gebruikersnaam   -pw wachtwoord  gemini.science.uu.nl:/data2/imau/oceanparcels/hydrodynamic_data/NEMO-MEDUSA/ORCA025-N006/ filename  C:\locatie op eigen computer 
