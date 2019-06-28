@@ -1,21 +1,39 @@
+How to run spyder from parcels (to be able to use parcels correctly):
 
+--> open Anaconda promt
 
-(base) C:\Users\Anne>activate parcels_deps
+	(base) C:\Users\Anne>activate parcels_deps
 
-(parcels_deps) C:\Users\Anne>activate spyder
-Could not find conda environment: spyder
-You can list all discoverable environments with `conda info --envs`.
+	(parcels_deps) C:\Users\Anne>spyder
 
+##----------------------------------------------------------------------------------------##
 
-(parcels_deps) C:\Users\Anne>spyder
+To download data from gemini to own device:
 
+--> open command promt
+--> go to Program Files/PuTTY
 
+C:\Program Files>cd Putty
 
-
-
-
-
-Bestanden van gemini naar eigen computer downloaden. Ga naar command prompt en daarin naar Program Files/PuTTY
-
+C:\Program Files\PuTTY>
+--> 
 run:
 pscp   -l gebruikersnaam   -pw wachtwoord  gemini.science.uu.nl:/data2/imau/oceanparcels/hydrodynamic_data/NEMO-MEDUSA/ORCA025-N006/ filename  C:\locatie op eigen computer 
+
+
+OR use Bitvise, (profile saved in C:\Users\Anne\SSH)
+
+to drag files from local computer to UU account and vice versa
+
+##--------------------------------------------------------------------------------------------##
+
+To go from command line straight into gemini:
+
+--> C:\ ssh 4082842@gemini.science.uu.nl
+--> then enter your password
+
+If you don't want to do this again every time, create a config-file in ~/.ssh/   (THIS I DONT UNDERSTAND...)
+
+Now you can run a file on gemini...? But how?
+
+To disconnect, type exit
